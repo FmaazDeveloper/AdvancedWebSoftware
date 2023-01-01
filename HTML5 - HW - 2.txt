@@ -1,0 +1,422 @@
+------------------------------------------------------------------4.1---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <form>
+            <input list="browser">
+            <datalist id="browser">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+            </datalist>
+        </form>
+
+        <p>
+            <b>Note:</b> The datalist tag is not supported in Safari or
+            IE9 (and earlier).
+        </p>
+
+    </body>
+</html>
+
+------------------------------------------------------------------5.1---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <p>
+            Depending on browser support:<br>
+            Numeric restrictions will apply in the input filed.
+        </p>
+        <form>
+            Quantity (btween 1 and 5):
+            <input type="number" min="1" max="5">
+            <input type="submit">
+        </form>
+
+        <p><b>Note:</b>type="number" is not supported in IE9 and earlier.</p>
+    
+    </body>
+</html>
+
+------------------------------------------------------------------5.2---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <p>
+            Depending on browser support:<br>
+            A data picker can pop-up when you enter the input filed.
+        </p>
+
+        <form>
+            Birthday:
+            <input type="date">
+            <input type="submit">
+        </form>
+
+        <p><b>Note:</b>type="date" is not supported in Internet Explorer 10 and earlier verions.</p>
+    
+    </body>
+</html>
+
+------------------------------------------------------------------5.3---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <p>
+            Depending on browser support:<br>
+            A data picker can pop-up when you enter the input filed.
+        </p>
+
+        <form>
+            Select your favorite color:
+            <input type="color" value="#ff0000">
+            <input type="submit">
+        </form>
+
+        <p><b>Note:</b>type="color" is not supported in Internet Explorer / Edge.</p>
+    
+    </body>
+</html>
+
+------------------------------------------------------------------5.4---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <p>
+            Depending on browser support:<br>
+            The input type "range" can be displayed as a slider control.
+        </p>
+
+        <form>
+            Select your favorite color:
+            <input type="range" min="0" max="10">
+            <input type="submit">
+        </form>
+
+        <p><b>Note:</b>type="range" is not supported in Internet Explorer 9 and earlier verions.</p>
+    
+    </body>
+</html>
+
+------------------------------------------------------------------5.5---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <p>
+            Depending on browser support:<br>
+            A data picker can pop-up when you enter the input filed.
+        </p>
+
+        <form>
+            Brithday (month and year):
+            <input type="month">
+            <input type="submit">
+        </form>
+
+        <p><b>Note:</b>type="month" is not supported in Internet Explorer 10 and earlier verions.</p>
+    
+    </body>
+</html>
+
+------------------------------------------------------------------5.6---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <p>
+            Depending on browser support:<br>
+            A data picker can pop-up when you enter the input filed.
+        </p>
+
+        <form>
+            Select a week:
+            <input type="week">
+            <input type="submit">
+        </form>
+
+        <p><b>Note:</b>type="week" is not supported in Internet Explorer 10 and earlier verions.</p>
+    
+    </body>
+</html>
+
+------------------------------------------------------------------5.7---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <p>
+            Depending on browser support:<br>
+            A time picker might pop-up when you enter the input filed.
+        </p>
+
+        <form>
+            Select a time:
+            <input type="time">
+            <input type="submit">
+        </form>
+
+        <p><b>Note:</b>type="time" is not supported in Firefox, or Internet Explorer 10 and earlier verions.</p>
+    
+    </body>
+</html>
+
+------------------------------------------------------------------5.8---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <p>
+            Depending on browser support:<br>
+            A time picker might pop-up when you enter the input filed.
+        </p>
+
+        <form>
+            Brithday (date and time):
+            <input type="datetime">
+            <input type="submit">
+        </form>
+
+        <p><b>Note:</b>type="datetime" is not supported in Chrome, Firefox, or Internet Explorer.</p>
+    
+    </body>
+</html>
+
+------------------------------------------------------------------5.9---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <p>
+            Depending on browser support:<br>
+            A time picker might pop-up when you enter the input filed.
+        </p>
+
+        <form>
+            E-mail:
+            <input type="email">
+            <input type="submit">
+        </form>
+
+        <p><b>Note:</b>type="email" is not supported in IE9 and earlier.</p>
+    
+    </body>
+</html>
+
+------------------------------------------------------------------5.10---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <form>
+            Search Google:
+            <input type="search">
+            <input type="submit">
+        </form>
+    
+    </body>
+</html>
+
+------------------------------------------------------------------5.11---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <form>
+            Telephone:
+            <input type="tel">
+            <input type="submit">
+        </form>
+    
+        <p><b>Note:</b>type "tel" is supported only in Safari 8.</p>
+    
+   </body>
+</html>
+
+------------------------------------------------------------------5.12---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <form>
+            Add your homepage:
+            <input type="url">
+            <input type="submit">
+        </form>
+    
+        <p><b>Note:</b>type "url" is not supported in IE9 and earlier verions.</p>
+    
+    </body>
+</html>
+
+------------------------------------------------------------------6.1---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <form autocomplete="on">
+            First name:<input type="text"><br>
+            Last name:<input type="text"><br>
+            E-mail:<input type="email" autocomplete="off"><br>
+            <input type="submit">      
+        </form>
+        
+        <p>
+            Fill and submit the form , then reload the page to see how autocomplete works.
+        </p>
+        <p>
+            Notece that autocomplete is "on" for the form , but "off" for the e-mail filed.
+        </p>
+    </body>
+</html>
+
+------------------------------------------------------------------6.2---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <form novalidate>
+            E-mail:<input type="email"><br>
+            <input type="submit">      
+        </form>
+        
+        <p>
+            <strong>Note:</strong>The novalidate attribute of the form tag is not
+            supported in Internet Explorer 9 and earlier versions , or in Safari.
+        </p>
+
+    </body>
+</html>
+
+------------------------------------------------------------------6.3---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <form>
+            First name:<input type="text" autofocus><br>
+            Last name:<input type="text"><br>
+            <input type="submit">      
+        </form>
+        
+        <p>
+            <strong>Note:</strong>The autofocus attribute of the input tag is not
+            supported in Internet Explorer 9 and earlier versions , or in Safari.
+        </p>
+
+    </body>
+</html>
+
+------------------------------------------------------------------6.8---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <form>
+            E-mail<input type="email"><br>
+            <input type="submit"><br>
+            <input type="submit" formnovalidate value="formnovalidate">
+        </form>
+        
+        <p>
+            <strong>Note:</strong>The formnovalidate attribute of the input tag is not
+            supported in Internet Explorer 9 and earlier versions , or in Safari.
+        </p>
+
+    </body>
+</html>
+
+------------------------------------------------------------------6.9---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <form>
+            First name:<input type="text" autofocus><br>
+            Last name:<input type="text"><br>
+            <input type="submit"><br>
+            <input type="submit" formtarget="_blank" value="new window/tab">
+        </form>
+        
+        <p>
+            <strong>Note:</strong>The formtarget attribute of the input tag is not
+            supported in Internet Explorer 9 and earlier versions , or in Safari.
+        </p>
+
+    </body>
+</html>
+
+------------------------------------------------------------------6.13---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <form>
+            Select image:<input type="file" multiple>
+            <input type="submit">
+        </form>
+        
+        <p>
+            Try selecting more than one file when browsing for files.
+        </p>
+
+    </body>
+</html>
+
+------------------------------------------------------------------6.14---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <form>
+            Country code:<input type="text" pattern="[A-Za-z]{3}" title="Three letter country code">
+            <input type="submit">
+        </form>
+
+    </body>
+</html>
+
+------------------------------------------------------------------6.15---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <form>
+            <input type="text" placeholder="First name"><br>
+            <input type="text" placeholder="Last name"><br>
+            <input type="submit">
+        </form>
+
+    </body>
+</html>
+
+------------------------------------------------------------------6.16---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <form>
+            Username:<input type="text" required>
+            <input type="submit">
+        </form>
+
+    </body>
+</html>
+
+------------------------------------------------------------------6.17---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <form>
+            <input type="number" step="3">
+            <input type="submit">
+        </form>
+
+    </body>
+</html>

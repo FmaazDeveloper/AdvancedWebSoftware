@@ -1,0 +1,278 @@
+------------------------------------------------------------------1.1---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <h1>My First Heading</h1>
+
+        <p>My first paragraph.</p>
+
+    </body>
+</html>
+
+------------------------------------------------------------------1.2---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <h1>This is heading 1</h1>
+        <h2>This is heading 2</h2>
+        <h3>This is heading 3</h3>
+        <h4>This is heading 4</h4>
+        <h5>This is heading 5</h5>
+        <h6>This is heading 6</h6>
+
+    </body>
+</html>
+
+------------------------------------------------------------------1.3---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <p>This is a paragraph .</p>
+        <p>This is another paragraph .</p>
+
+    </body>
+</html>
+
+------------------------------------------------------------------1.4---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <h2>HTML Links</h2>
+        <p>HTML links are defined with the a tag : </p>
+
+        <a href="https://www.w3schools.com">This is a link</a>
+
+    </body>
+</html>
+
+------------------------------------------------------------------1.5---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <h2>HTML Images</h2>
+        <p>HTML images are defined with the img tag : </p>
+
+        <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+
+    </body>
+</html>
+
+------------------------------------------------------------------1.6---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <h2>HTML Buttons</h2>
+        <p>HTML buttons are defined with the button tag : </p>
+
+        <button>Click me</button>
+
+    </body>
+</html>
+
+------------------------------------------------------------------1.7---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <h2>An Unordered HTML List</h2>
+
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+
+        <h2>An Ordered HTML List</h2>
+
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+        
+    </body>
+</html>
+
+------------------------------------------------------------------2.1---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <h2 title="T'm a header">The title Attribute</h2>
+
+        <p title="I'm a tooltip">Mouse over this pragraph , to display the title attribute as a tooltip</p>
+
+    </body>
+</html>
+
+------------------------------------------------------------------2.2---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <h2>The href Attribute</h2>
+
+        <p>HTML links are defined with the a tag . The link address is specified in the href attribute :</p>
+        <a href="https://www.w3schools.com">Visit W3Schools</a>
+
+    </body>
+</html>
+
+------------------------------------------------------------------2.3---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <h2>Width and Height Attributes</h2>
+
+        <p>
+            The width and height attributes of the img tag , defines the width and height
+            of the image :
+        </p>
+
+        <img src="img_girl.jpg" width="100" height="200">
+
+    </body>
+</html>
+
+------------------------------------------------------------------2.4---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <h2>The alt Attribute</h2>
+        <p>
+            The alt attribute should reflect the image content , so users who cannot see the image gets an
+            understanding of what the image contains :
+        </p>
+
+        <img src="img_girl.jpg" alt="Girl with a jacket" width="100" height="200">
+
+    </body>
+</html>
+
+------------------------------------------------------------------3.1---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <section>
+            <h1>WWF</h1>
+            <p>
+                The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation ,
+                research and restoration of the enviroment , formerly named the World Wildlife Fund . WWF was founded in 1961 . 
+            </p>
+        </section>
+
+        <section>
+            <h1>WWF's Panda symbol</h1>
+            <p>
+                The Panda has become the symbol of WWF . The well-known panda logo of WWF originated from a panda named Chi Chi that
+                was transferred from the Beijing Zoo to rhe London Zoo in the same year of the establishment of WWF . 
+            </p>
+        </section>
+    </body>
+</html>
+
+------------------------------------------------------------------3.2---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <article>
+            <h1>What Does WWF Do?</h1>
+            <p>
+                WWF's mission is to stop the degradation of our planet's natural environment , and build a future in which humans live in harmony with nature .
+            </p>
+        </article>
+
+    </body>
+</html>
+
+------------------------------------------------------------------3.3---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <article>
+            <header>
+                <h1>What Does WWF Do?</h1>
+                <p> WWF's mission : </p>
+            </header>
+            <p>
+                WWF's mission is to stop the degradation of our planet's natural environment , and build a future in which humans live in harmony with nature .
+            </p>
+        </article>
+
+    </body>
+</html>
+
+------------------------------------------------------------------3.4---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <footer>
+            <p>Posted by : Hege Refsnes</p>
+            <p>Contact information <a href="mailto:someone@example.com">someone@example.com</a> . </p>
+        </footer>
+
+    </body>
+</html>
+
+------------------------------------------------------------------3.5---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <nav>
+            <a href="index.html">HTML</a> |
+            <a href="../css/index.html">CSS</a> |
+            <a href="../js/index.html">JavaScript</a> |
+            <a href="../jquery/index.html">jQuery</a> 
+        </nav>
+
+    </body>
+</html>
+
+------------------------------------------------------------------3.6---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <p>My family and I visited The Epcot center this summer .</p>
+
+        <aside>
+            <h4>Epoct Center</h4>
+            <p>The Epcot Center is a theme park in Disney World , Florida .</p>
+        </aside>
+
+    </body>
+</html>
+
+------------------------------------------------------------------3.7---------------------------------------------------------------
+
+<html>
+    <body>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repellat accusantium saepe quibusdam
+            asperiores animi iure ea in, quis architecto porro sit odit quos, nisi esse, non fugiat molestias?
+            Unde obcaecati repellendus voluptates maxime! Iste fuga ab labore tempora, aut sapiente voluptatum
+            nulla dicta, harum cumque dolor explicabo. Iste, aut.
+        </p>
+
+        <figure>
+            <img src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
+            <figcaption>Fig.1 - The Pulpit Rock , Norway .</figcaption>
+        </figure>
+        
+    </body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------
