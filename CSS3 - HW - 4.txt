@@ -1,0 +1,167 @@
+------------------------------------------------------------------4.1---------------------------------------------------------------
+
+<html>
+    <head>
+        <style>
+            p.text1{
+                white-space: nowrap;
+                width: 200px;
+                border: 1px solid #000000;
+                overflow: hidden;
+                text-overflow: clip;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, vitae.</p>
+        <p class="text1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo deserunt rem aliquid obcaecati quod? Modi sint fugit minus temporibus numquam ipsam adipisci officia, commodi fugiat sunt quibusdam molestias tenetur error!</p>
+    </body>
+</html>
+
+------------------------------------------------------------------5.1---------------------------------------------------------------
+
+<html>
+    <head>
+        <style>
+            div{
+                width: 300px ; height: 100px;
+                background-color: yellow ; border: 1px solid black;
+                transform: translate(50px,100px);
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, dolore?
+        </div>
+    </body>
+</html>
+
+------------------------------------------------------------------5.2---------------------------------------------------------------
+
+<html>
+    <head>
+        <style>
+            div{
+                width: 300px ; height: 100px;
+                background-color: red;
+                animation-name: example;
+                animation-duration: 4s;
+                }
+                @keyframes example {
+                    from{background-color : red;}
+                    to{background-color : yellow;} 
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+        </div>
+    </body>
+</html>
+
+------------------------------------------------------------------6.1---------------------------------------------------------------
+
+<html>
+    <head>
+        <style>
+            img{
+                border-radius: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Lorem, ipsum.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+        <img src="paris.jpg" alt="paris" width="200" height="150">
+    </body>
+</html>
+
+------------------------------------------------------------------6.2---------------------------------------------------------------
+
+<html>
+    <head>
+        <style>
+            .button{
+                background-color: #4CAF50;
+                border: none; color: white;
+                padding: 15px 32px; text-align: center;
+                text-decoration: none; display: inline-block;
+                font-size: 16px; margin: 4px 2px; cursor: pointer;
+            }
+            .button1{
+                background-color: white;
+                color: black;
+                border: 2px solid #4CAF50;
+            }
+            .button2{
+                background-color: white;
+                color: black;
+                border: 2px solid #008CBA;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Lorem, ipsum.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+        <button class="button button1">Green</button>
+        <button class="button button2">Blue</button>
+    </body>
+</html>
+
+------------------------------------------------------------------7.1---------------------------------------------------------------
+
+<html>
+    <head>
+        <style>
+            ul.pagination{
+                display: inline-block; padding: 0; margin: 0;
+            }
+            ul.pagination li{
+                display: inline;
+            }
+            ul.pagination li a{
+                color: black; float: left; padding: 8px 16px;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Lorem, ipsum.</h2>
+        <ul class="pagination">
+            <li><a href="w3schools.com">ll</a></li>
+            <li><a href="w3chools.com">1</a></li>
+            <li><a href="w3chools.com" class="active">2</a></li>
+            <li><a href="w3chools.com">3</a></li>
+            <li><a href="w3chools.com">ll</a></li>
+        </ul>
+    </body>
+</html>
+
+------------------------------------------------------------------7.2---------------------------------------------------------------
+
+<html>
+    <head>
+        <style>
+            .newspaper{
+                column-count: 3;
+                column-gap: 40px;
+                column-rule: 1px solid lightblue;
+            }
+            h2{
+                column-span: all;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="newspaper">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad est eius quo provident iure laudantium reprehenderit, illum sint eum. Aperiam.
+        </div>
+    </body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------
