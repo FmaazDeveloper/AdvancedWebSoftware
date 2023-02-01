@@ -1,0 +1,434 @@
+------------------------------------------------------------------11.1---------------------------------------------------------------
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>JavaScript String</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis ipsum odit neque? Aut, commodi?</p>
+        <p id="demo"></p>
+        <script>
+            let answer1 = "It's alright";
+            let answer2 = "He is called 'Johnny'";
+            let answer3 = 'He is called "Johnny"';
+            document.getElementById('demo').innerHTML = answer1 + "<br>" + answer2 + "<br>" + answer3;
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------11.2---------------------------------------------------------------
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>JavaScript Numbers</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis ipsum odit neque? Aut, commodi?</p>
+        <p id="demo"></p>
+        <script>
+            let x1 = 34.00;
+            let x2 = 34;
+            let x3 = 3.14;
+            document.getElementById('demo').innerHTML = x1 + "<br>" + x2 + "<br>" + x3;
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------11.3---------------------------------------------------------------
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>JavaScript Arrays</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis ipsum odit neque? Aut, commodi?</p>
+        <p id="demo"></p>
+        <script>
+            const cars = ["Saab","Volvo","BMW"];
+            document.getElementById('demo').innerHTML = cars[0];
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------11.4---------------------------------------------------------------
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>JavaScript Objects</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis ipsum odit neque? Aut, commodi?</p>
+        <p id="demo"></p>
+        <script>
+            const person = {firstName:"John",lastName:"Doe",age:50,eyeColor:"blue"};
+            document.getElementById('demo').innerHTML = person.firstName + " is " + person.age + " years old.";
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------11.5---------------------------------------------------------------
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis ipsum odit neque? Aut, commodi?</p>
+        <p id="demo"></p>
+        <script>
+            document.getElementById('demo').innerHTML = 
+            typeof "" + "<br>" + 
+            typeof "John" + "<br>" + 
+            typeof "John Doe" + "<br>" + 
+            typeof 0 + "<br>" +
+            typeof 314 + "<br>" +
+            typeof 3.14 + "<br>" +
+            typeof (3.14)
+            ;
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------11.6---------------------------------------------------------------
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>JavaScript</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis ipsum odit neque? Aut, commodi?</p>
+        <p id="demo"></p>
+        <script>
+            let x = 16 + 4 + "Volvo";
+            document.getElementById('demo').innerHTML = x;
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------11.7---------------------------------------------------------------
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>JavaScript</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis ipsum odit neque? Aut, commodi?</p>
+        <p id="demo"></p>
+        <script>
+            let x =  "Volvo" + 16 + 4;
+            document.getElementById('demo').innerHTML = x;
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------11.8---------------------------------------------------------------
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>JavaScript</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis ipsum odit neque? Aut, commodi?</p>
+        <p id="demo"></p>
+        <script>
+            let car;
+            document.getElementById('demo').innerHTML = car + "<br>" + typeof car;
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------11.9---------------------------------------------------------------
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>JavaScript</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis ipsum odit neque? Aut, commodi?</p>
+        <p id="demo"></p>
+        <script>
+            let car = "";
+            document.getElementById('demo').innerHTML = "The value is: " + car + "<br>" + "The type is: " + typeof car;
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------12.1---------------------------------------------------------------
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>JavaScript</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis ipsum odit neque? Aut, commodi?</p>
+        <p id="demo"></p>
+        <script>
+            //Create and display varible
+            let car = "Fiat";
+            document.getElementById('demo').innerHTML = car;
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------12.2---------------------------------------------------------------
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>JavaScript</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis ipsum odit neque? Aut, commodi?</p>
+        <p id="demo"></p>
+        <script>
+            //Create an object:
+            const car = {type:"Fiat",model:"500",color:"white"};
+            document.getElementById('demo').innerHTML = "The car type is " + car.type;
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------13.1---------------------------------------------------------------
+
+<html>
+    <head>
+        <script>
+            function  myFunction(){
+                document.getElementById('demo').innerHTML = "Hello World!";
+            }
+        </script>
+    </head>
+    <body>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <button onclick="myFunction()">Try it</button>
+        <p id="demo"></p>
+    </body>
+</html>
+
+------------------------------------------------------------------13.2---------------------------------------------------------------
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <script>
+            function  myFunction(name,job){
+                document.getElementById('demo').innerHTML = "Welcome " + name + ", the " + job + ".";
+            }
+        </script>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <button onclick="myFunction('Harry Potter' , 'Wizard')">Try it</button>
+        <p id="demo"></p>
+    </body>
+</html>
+
+------------------------------------------------------------------13.3---------------------------------------------------------------
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <script>
+            function  myFunction(txt){
+                document.getElementById('demo').innerHTML = txt;
+            }
+        </script>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <form>
+            <input type="button" onclick="myFunction('Good Morning')" value="In the Morning">
+            <input type="button" onclick="myFunction('Good Evening')" value="In the Evening">
+        </form>
+        <p id="demo"></p>
+    </body>
+</html>
+
+------------------------------------------------------------------13.4---------------------------------------------------------------
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h2>JavaScript Functions</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p id="demo"></p>
+        <script>
+            var x = myFunction(3,4);
+            function  myFunction(a,b){
+                return a*b;
+            }
+            document.getElementById('demo').innerHTML = x;
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------13.5---------------------------------------------------------------
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h2>JavaScript Functions</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p id="demo"></p>
+        <script>
+            function  myFunction(f){
+                return (5/9) * (f-32);
+            }
+            document.getElementById('demo').innerHTML = myFunction(77);
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------13.6---------------------------------------------------------------
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h2>JavaScript Functions</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p id="demo"></p>
+        <script>
+            function  myFunction(f){
+                return (5/9) * (f-32);
+            }
+            document.getElementById('demo').innerHTML = myFunction;
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------14.1---------------------------------------------------------------
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <button onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button>
+        <p id="demo"></p>
+    </body>
+</html>
+
+------------------------------------------------------------------14.2---------------------------------------------------------------
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h2>JavaScript HTML Events</h2>
+        <button onclick="this.innerHTML=Date()">The time is?</button>
+    </body>
+</html>
+
+------------------------------------------------------------------14.3---------------------------------------------------------------
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h2>JavaScript HTML Events</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <button onclick="displayDate()">The time is?</button>
+        <script>
+            function displayDate(){
+                document.getElementById('demo').innerHTML = Date();
+            }
+        </script>
+        <p id="demo"></p>
+    </body>
+</html>
+
+------------------------------------------------------------------15.4---------------------------------------------------------------
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h2>JavaScript String Properties</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <p id="demo"></p>
+        <script>
+            let text = "ABCDEFGHIGKLMONPQRSTUVWXYZ";
+            document.getElementById('demo').innerHTML = text.length;
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------15.7---------------------------------------------------------------
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h2>JavaScript String Methods</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <p id="demo"></p>
+        <script>
+            let str = "Please locate where 'locate' occurs!";
+            document.getElementById('demo').innerHTML = str.indexOf("locate");
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------15.10---------------------------------------------------------------
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h2>JavaScript String Methods</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <button onclick="myFunction()">Try it</button>
+        <p id="demo">Hello World!</p>
+        <script>
+            function myFunction(){
+                let text = document.getElementById('demo').innerHTML;
+                document.getElementById('demo').innerHTML = text.toUpperCase();
+            }
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------15.11---------------------------------------------------------------
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h2>JavaScript String Methods</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <button onclick="myFunction()">Try it</button>
+        <p id="demo">Hello World!</p>
+        <script>
+            function myFunction(){
+                let text = document.getElementById('demo').innerHTML;
+                document.getElementById('demo').innerHTML = text.toLowerCase();
+            }
+        </script>
+    </body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------
